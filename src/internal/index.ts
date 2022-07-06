@@ -1,5 +1,7 @@
 import fetchMngr from "./fetch";
 import { NormaliseCountryCodes } from "./utils";
+import data from "../data/stores.json";
+
 class Internal {
   public InkaBaseUrl = "https://api.ingka.ikea.com/cia/"
   public async fetch(url: string) {
@@ -26,11 +28,16 @@ class Internal {
       const data = {
         buCode: val.classUnitKey.classUnitCode,
         availableStocks: val.availableStocks[0],
+        store: this.getStore(val.classUnitKey.classUnitCode)[0],
         mapEntry: i + 1
       }
       dataArr.push(data)
     })
     return dataArr
+  }
+  public getStore(buCodes: string) {
+    const strCodes = [buCodes]
+    return data.filter(store => strCodes.indexOf(store.buCode) > -1);
   }
 }
 export const internal = new Internal()
