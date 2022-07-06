@@ -1,0 +1,23 @@
+{
+  "name": "ikea-api",
+  "version": "1.0.0",
+  "description": "A tool for main site (its a better functioning api that the old stuffA tool for main site (its a better functioning api that the old stuff",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/IkeaStock/Ikea-Api",
+  "author": "devramsean0 <outramsean0@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "private": false,
+  "devDependencies": {
+    "@sapphire/ts-config": "^3.3.4",
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "node-fetch": "^2.x"
+  }
+}
