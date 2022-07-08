@@ -13,11 +13,8 @@ class Internal {
   public NormalizeBuCode(buCode: String) {
       return String(buCode || '').replace(/[^0-9]/g, '');
   }
-   public NormalizeItemCode(itemCode: String) {
-      return String(itemCode || '').replaceAll(".", "");
-  }
-  public async getById(countryCode: string, itemCode: string) {
-    const url = `availabilities/ru/${this.NormaliseCountryCode(countryCode)}?itemNos=${this.NormalizeItemCode(itemCode)}&expand=StoresList,Restocks`
+  public async getById(countryCode: string, itemCode: number) {
+    const url = `availabilities/ru/${this.NormaliseCountryCode(countryCode)}?itemNos=${itemCode}&expand=StoresList,Restocks`
     const res = await this.fetch(url);
     const resData = await res.json();
     var dataArr: any[] = [];

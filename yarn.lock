@@ -23,6 +23,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@sapphire/shapeshift@^3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/shapeshift/-/shapeshift-3.4.1.tgz#68901b77c7903e404d8706b2227173fd8aae7568"
+  integrity sha512-OSR/yVE6butSlp/yvKntcg92k8IIDeTccfz1fw69lTZN02+JJ2GyKnA3Z1CLYelWc8Dh/yqO/iGTo9ypxFcAcg==
+
 "@sapphire/ts-config@^3.3.4":
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/@sapphire/ts-config/-/ts-config-3.3.4.tgz#dabab6a3c1a862ea753b8d4e67a6ac07e9f5d7a7"
