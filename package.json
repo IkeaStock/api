@@ -1,6 +1,6 @@
 {
   "name": "@ikeastock/api",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A tool for main site (its a better functioning api that the old stuff)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,5 +22,8 @@
   "dependencies": {
     "@sapphire/shapeshift": "^3.4.1",
     "node-fetch": "^2.x"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
