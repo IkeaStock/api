@@ -20,7 +20,10 @@ class Internal {
     var dataArr: any[] = [];
     resData.data.map((val: any, i: number) => {
       if (val.availableStocks == undefined) {
-        val.availableStocks = []
+        return
+      }
+      if (val.store.name == undefined) {
+        return
       }
       const data = {
         buCode: val.classUnitKey.classUnitCode,
