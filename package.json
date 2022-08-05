@@ -1,7 +1,7 @@
 {
   "name": "@ikeastock/api",
   "version": "1.4.0",
-  "description": "A tool for main site (its a better functioning api that the old stuff)",
+  "description": "A tool for main site (its a better functioning api than the old package)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/IkeaStock/Ikea-Api",
