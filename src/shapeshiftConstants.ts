@@ -1,6 +1,9 @@
 import { s } from "@sapphire/shapeshift"
 
 class shapeshiftConstants {
+    /**
+     * Internal Class for @sapphire/shapeshift validation 
+     */
     public string(string: string) {
         /**
          * Validates Strings
