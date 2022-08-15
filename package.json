@@ -8,7 +8,8 @@
   "author": "devramsean0 <outramsean0@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "compile": "tsup"
+    "compile": "tsup",
+    "doc:build": "typedoc --out docs src/"
   },
   "private": false,
   "devDependencies": {
@@ -17,6 +18,7 @@
     "@types/node": "18.0.0",
     "@types/node-fetch": "2.6.2",
     "tsup": "6.2.1",
+    "typedoc": "^0.23.10",
     "typescript": "4.7.4"
   },
   "dependencies": {
