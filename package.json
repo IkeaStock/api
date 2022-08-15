@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsup",
-    "doc:build": "typedoc --out docs src/"
+    "doc:build": "typedoc --entryPoints src --entryPointStrategy expand --out docs --plugin typedoc-theme-hierarchy --theme hierarchy"
   },
   "private": false,
   "devDependencies": {
@@ -18,7 +18,8 @@
     "@types/node": "18.0.0",
     "@types/node-fetch": "2.6.2",
     "tsup": "6.2.1",
-    "typedoc": "^0.23.10",
+    "typedoc": "^0.23.06",
+    "typedoc-theme-hierarchy": "^3.0.0",
     "typescript": "4.7.4"
   },
   "dependencies": {
