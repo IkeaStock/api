@@ -711,9 +711,9 @@ mz@^2.7.0:
     thenify-all "^1.0.0"
 
 node-fetch@^2.x:
-  version "2.6.7"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
-  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
+  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
   dependencies:
     whatwg-url "^5.0.0"
 
@@ -945,10 +945,10 @@ tsup@6.2.3:
     sucrase "^3.20.3"
     tree-kill "^1.2.2"
 
-typedoc-theme-hierarchy@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/typedoc-theme-hierarchy/-/typedoc-theme-hierarchy-3.0.0.tgz#7c371d577723e7c9e10f7f80d3ff51147ead9975"
-  integrity sha512-f8zWRVYJ6hAIyUorTNnUtrzGo4BMApC7d2PSaUR9OG9gLUaNZTosB9EkfIsWxj7nyqG909kobeVxTa20FU9f/g==
+typedoc-theme-hierarchy@^3.0.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/typedoc-theme-hierarchy/-/typedoc-theme-hierarchy-3.2.1.tgz#141e0c97c6e55e0eb019274caf1315c029e521ff"
+  integrity sha512-Spum9ccW7bc++c8dLFNRh+9hvG+REntLQCNUb74pz28qcuhPOtxOuKteM/4aJbJDjw/9mORXZZYSToMGb+MrYw==
   dependencies:
     fs-extra "^10.0.0"
 
