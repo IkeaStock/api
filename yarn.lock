@@ -945,10 +945,10 @@ tsup@6.2.3:
     sucrase "^3.20.3"
     tree-kill "^1.2.2"
 
-typedoc-theme-hierarchy@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/typedoc-theme-hierarchy/-/typedoc-theme-hierarchy-3.0.0.tgz#7c371d577723e7c9e10f7f80d3ff51147ead9975"
-  integrity sha512-f8zWRVYJ6hAIyUorTNnUtrzGo4BMApC7d2PSaUR9OG9gLUaNZTosB9EkfIsWxj7nyqG909kobeVxTa20FU9f/g==
+typedoc-theme-hierarchy@^3.0.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/typedoc-theme-hierarchy/-/typedoc-theme-hierarchy-3.2.1.tgz#141e0c97c6e55e0eb019274caf1315c029e521ff"
+  integrity sha512-Spum9ccW7bc++c8dLFNRh+9hvG+REntLQCNUb74pz28qcuhPOtxOuKteM/4aJbJDjw/9mORXZZYSToMGb+MrYw==
   dependencies:
     fs-extra "^10.0.0"
 
@@ -962,10 +962,10 @@ typedoc@^0.23.06:
     minimatch "^5.1.0"
     shiki "^0.10.1"
 
-typescript@4.8.4:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.4.tgz#c464abca159669597be5f96b8943500b238e60e6"
-  integrity sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==
+typescript@5.7.3:
+  version "5.7.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.7.3.tgz#919b44a7dbb8583a9b856d162be24a54bf80073e"
+  integrity sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==
 
 typescript@^4.6.3:
   version "4.7.4"
